@@ -1,0 +1,64 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+body {
+	background:#ebebeb;
+	font-family:sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color:#444;
+	border-top:8px solid #2ec16c;
+}
+.wrap {
+	max-width:800px;
+	-webkit-box-sizing:border-box;
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom: 100px;
+	width:90%;
+}
+.wrap > div {
+	background:white;
+	/*box-shadow:0px 2px 6px rgba(0,0,0,0.1);*/
+	border:2px solid rgba(0,0,0,0.1);
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	border-bottom: 4px solid rgba(0,0,0,0.1);
+	padding:2em;
+}
+.logo { margin-bottom:2em;}
+h1,h2,h3 {line-height: 1.5;}
+h1 { font-size:2em;margin-bottom: .5em;}
+h2 { margin:1em 0 .5em 0; font-weight:bold; font-size: 1.5em}
+h3 { margin:1em 0; font-size:1.125em;}
+p {line-height: 1.5; color:#606060; margin:1em 0;}
+.tip { background:#2ec16c;display: block; color:white; padding:1em;}
+.btn {background:#2ec16c; color:white; text-decoration: none; padding:1em; display: inline-block; margin:1em 0;}
+a {color:#2ea15f;}
+
+code, textarea{padding:.2em .4em; color:#2d2d2d; background:#ebebeb; white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word; }
+
+textarea {width:96%;display:block;height:200px;border:none;margin-top:1em;font-size:.875em;line-height: 1.5;padding:1em 2% 0 2%;overflow:hidden;}
+
+.preflight {
+	width:100%;
+}
+.preflight th {
+	text-align: left;
+	background:#f5f5f5;
+	padding:2% 1%;
+	margin:0 1%;
+	font-size: .875em;
+}
+.preflight td {
+	padding:1em 1%;
+	border-bottom:1px solid #f5f5f5;
+}
+.icon-ok {
+	color:#97b538;
+}
+.icon-remove {
+	color:#FF4E50;
+}
